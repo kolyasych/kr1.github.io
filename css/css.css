@@ -1,0 +1,190 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #000;
+}
+.header-link {
+    padding: 20px;
+    background: #e85100;
+    color: white;
+    font-size: 1.5em;
+}
+.fa {
+    margin-right: 20px;
+}
+.a-link {
+    color: white;
+}
+.a-link:focus, .a-link:hover, .a-link:active {
+    outline: none;
+    text-decoration: none;
+}
+.logo-block {
+    height: 100px;
+    background: #ff5800;
+    padding: 20px;
+}
+.img-logo {
+    margin-left:  20px;
+}
+.miracle {
+    height: 400px;
+    padding-top: 150px;
+    background-image: url("../img/campagna_taormina.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.miracle p, .why p {
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.why {
+    height: 400px;
+    padding-top: 100px;
+    background-image: url("../img/w-1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+}
+
+.covid-19 {
+    margin: 70px 0 70px 0;
+    padding: 10px 20px 1px 20px;
+    display: inline-block;
+    background: #ff5800;
+    color: white;
+    font-size: 1.3em;
+    width: auto;
+}
+.backgro-img {
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 70px;
+}
+.backgro-img-1 {
+    background-image: url("../img/1.jpg");
+}
+
+.backgro-img-2 {
+    background-image: url("../img/2.jpg");
+}
+.backgro-img-3 {
+    background-image: url("../img/3.jpg");
+}
+.backgro-img-4 {
+    background-image: url("../img/4.jpg");
+}
+
+.h3-b {
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+.p-b {
+    color: gray;
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+.btn1 {
+    display: inline-block;
+    padding-top: 14px;
+    background: #ff5800;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+.btn1:focus, .btn1:active, .btn1:hover {
+    color: black;
+    text-decoration: none;
+}
+.thing {
+    background-size: cover;
+    height: 230px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: calc(100% / 3 - 20px);
+}
+
+@media only screen and (max-width: 767px) {
+    .thing {
+        width: calc(100% / 2 - 20px);
+        height: 150px;
+        padding-top: 40px;
+    }
+}
+.thing-1 {
+    background-image: url("../img/t-1.jpg");
+}
+.thing-2 {
+    background-image: url("../img/t-2.jpg");
+}
+.thing-3 {
+    background-image: url("../img/t-3.jpg");
+}
+.thing-4 {
+    background-image: url("../img/t-4.jpg");
+}
+.thing-5 {
+    background-image: url("../img/t-5.jpg");
+}
+.thing-6 {
+    background-image: url("../img/t-6.jpg");
+}
+.thing-7 {
+    background-image: url("../img/t-7.jpg");
+}
+.thing-8 {
+    background-image: url("../img/t-8.jpg");
+}
+.thing-9 {
+    background-image: url("../img/t-9.jpg");
+}
+.thing-10 {
+    background-image: url("../img/t-10.jpg");
+}
+
+
+
+
+
+
+.title {
+    background: #f5ac2d;
+    color: white;
+    margin-bottom: 70px;
+}
+.question-h3 {
+    color: #ff5800;
+    margin: 20px 0 20px 0;
+}
+.answer-p {
+    font-size: 1.1em;
+    color: gray;
+}
+.a-answer {
+    color: #ff5800;
+    font-weight: bold;
+}
+.a-answer:focus, .a-answer:active, .a-answer:hover {
+    color: #ff5800;
+}
+.img {
+    width: 50%;
+    margin-bottom: 30px;
+}
+.p-text {
+    font-size: 1em;
+    color: gray;
+    text-align: left;
+}
+footer {
+    margin-top: 70px;
+    background: silver;
+    color: black;
+    height: 100px;
+    padding-top: 40px;
+    padding-left: 35px;
+}
